@@ -11,6 +11,10 @@ node_modules
 dist
 dist-ssr
 *.local
+assets
+text.html
+style-guide.md
+readme-template.md
 
 # Editor directories and files
 .vscode/*
