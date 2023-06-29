@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+.card-container {
+  width: 305px;
+  height: 500px;
+  background-color: hsl(31, 77%, 52%);
+  color: #fff;
+  border-radius: 8px;
+  padding: 45px;
+}
+
+.card--header {
+  font-family: 'Big Shoulders Display', cursive;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 45px 0 45px 0;
+}
+
+.card--description {
+  width: 210px;
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.card--button {
+  margin-top: 60px;
+  width: 145px;
+  height: 45px;
+  border-radius: 30px;
+  border: 0;
+  color: hsl(31, 77%, 52%);
+  font-family: 'Lexend Deca', sans-serif;
+}
