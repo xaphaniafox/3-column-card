@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
-
-body {
-  font-family: 'Inter', sans-serif;
+.card-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .card-container {
   width: 305px;
   height: 500px;
-  background-color: hsl(31, 77%, 52%);
+  /* background-color: hsl(31, 77%, 52%); */
   color: #fff;
   border-radius: 8px;
-  padding: 45px;
+  padding-left: 45px;  
+  padding-top: 45px;
 }
 
 .card--header {
@@ -31,6 +32,5 @@ body {
   height: 45px;
   border-radius: 30px;
   border: 0;
-  color: hsl(31, 77%, 52%);
   font-family: 'Lexend Deca', sans-serif;
 }
